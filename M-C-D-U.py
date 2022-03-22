@@ -1,0 +1,5 @@
+num = input(str('Digite um número de 4 dígitos: '))
+print('Em seu número há {} unidade(s).'.format(num[3]))
+print('Em seu número há {} dezena(s).'.format(num[2]))
+print('Em seu número há {} centena(s).'.format(num[1]))
+print('Em seu número há {} milhar(es).'.format(num[0]))
